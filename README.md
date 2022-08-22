@@ -1,12 +1,12 @@
-# WeatherApp-JS
- Vanilla JS
+# VirtualKeyboard : JS
 
-proxy : https://cors-anywhere.herokuapp.com/
-==> It needs to request temporary access continually
-Darksky API : https://darksky.net
-==> token : fd9d9c6418c23d94745b836767721ad1
+designed by Soo
 
-Icons : https://darkskyapp.github.io/skycons/
-==> After git clone the skycons on your local desktop, then copy the skycons.JS to your WeatherApp-JS folder
+Reference:
+https://www.youtube.com/watch?v=N3cq0BHDMOY&t=1s
 
-Reference: https://www.youtube.com/watch?v=wPElVpR1rwA&t=187s
+Link to code:
+https://codepen.io/dcode-software/pen...
+
+Google Material Icons:
+https://google.github.io/material-des...

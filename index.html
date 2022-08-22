@@ -1,26 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Weather</title>
-</head>
-<body>
-    <div class="location">
-        <h1 class="location-timezone">Timezone</h1>
-        <canvas class="icon" width="128" height="128"></canvas>
-    </div>
-    <div class="temperature">
-        <div class="degree-section">
-            <h2 class="temperature-degree">34</h2>
-            <span>F</span>
-        </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- using google icon -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"/>
+    <link rel="stylesheet" href="keyboard/Keyboard.css" />
+    <title>Virtual Keyboard</title>
+  </head>
 
-        <div class="temperature-description">Its friggin cold</div>
-    </div>
-    <script src="app.js"></script>
-    <script src="skycons.js"></script>
-</body>
+  <body>
+    <h1>Virtual Keyboard w/ HTML, CSS & JS</h1>
+    <h3>Features</h3>
+    <ul>
+      <li>Easy to integrate</li>
+      <li>Responsive</li>
+      <li>Vanilla JS (<strong>no libraries required!</strong>)</li>
+    </ul>
+    <textarea class="use-keyboard-input"  cols ="25" rows="5">Type here on the black board</textarea>
+
+    <!-- <div class="keyboard">
+      <div class="keyboard_keys">
+        <button type="button" class="keyboard_key">a</button>
+        <button type="button" class="keyboard_key keyboard_key--wide">
+          <i class="material-icons">backspace</i>
+        </button>
+        <button type="button" class="keyboard_key keyboard_key--extra-wide">
+          <i class="material-icons">space_bar</i>
+        </button>
+        <button
+          type="button"
+          class="keyboard_key keyboard_key--wide keyboard_key--activatable">
+          <i class="material-icons">keyboard_capslock</i>
+        </button>
+        <button
+          type="button"
+          class="keyboard_key keyboard_key--wide keyboard_key--dark">
+          <i class="material-icons">check_circle</i>
+        </button>
+      </div>
+    </div> -->
+
+    <script src="keyboard/Keyboard.js"></script>
+  </body>
 </html>
